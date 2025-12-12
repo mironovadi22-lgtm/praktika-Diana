@@ -1078,8 +1078,75 @@ body {
         display: none;
     }
 
-    
 
 
+}
+
+
+
+@media (max-width: 320px) {
+    .courses__inner {
+        padding: unset;
+    }
+
+    .courses__text-subtitle {
+        font-size: 10px;
+    }
+
+    .courses__text-title {
+        font-size: 20px;
+    }
+
+    .compact-search-field {
+        width: 255px;
+    }
+
+    .horizontal-line {
+        max-width: 280px;
+    }
+
+    .advantages__inner {
+        padding: 0px 10px;
+    }
+
+    .advantages__info-teacher-text-title {
+        font-size: 22px;
+    }
+
+    .advantages__info-teacher-text-definition {
+        font-size: 16px;
+    }
+
+    .teacher__card {
+        max-width: 266px;
+    }
+
+    .footer__inner {
+        max-width: 290px;
+    }
+
+    .footer__contacts-title {
+        font-size: 16px;
+    }
+
+    .footer__contacts-text {
+        font-size: 14px;
+    }
+
+    .contact__details-text {
+        font-size: 14px;
+    }
+
+    .footer__contacts {
+        gap: 25px;
+    }
+
+    .brand__logo {
+        max-width: 222px;
+    }
+
+    .brand__slogan {
+        font-size: 17px;
+    }
 
 }
