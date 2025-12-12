@@ -234,6 +234,50 @@ body {
     gap: 78px;
 }
 
+.courses__all-search {
+    display: flex;
+    align-items: flex-end;
+    gap: 590px;
+}
+
+.compact-search-field {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 14px;
+    width: 315px;
+    height: 45px;
+    background: #E9E9E9;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-family: 'Manrope', sans-serif;
+}
+
+.compact-search-field:focus-within {
+    background: #E0E0E0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compact-search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.compact-search-input {
+    flex: 1;
+    height: 18px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #000000;
+    outline: none;
+}
+
+.compact-search-input::placeholder {
+    color: #000000;
+    opacity: 0.7;
+}
+
 .courses__all {
     display: flex;
     flex-direction: column;
@@ -481,6 +525,12 @@ body {
 .advantages__info-teacher-photo img {
     display: block;
 }
+
+.advantages__info-teacher-photo-mobile img{
+    display: none;
+}
+
+
 
 
 
@@ -793,6 +843,10 @@ body {
         font-size: 20px;
     }
 
+    .courses__all-search {
+        gap: 544px;
+    }
+
 }
 
 
@@ -898,11 +952,134 @@ body {
     }
 
 
+    .courses__all-search {
+        gap: 213px;
+    }
+
+
 }
 
 @media (max-width: 425px) {
 
+    .header__inner-mobile .header__right {
+        max-width: 425px;
+    }
+
+    .main__inner {
+        padding: 42px 10px;
+    }
+
+    .main__text-info-title {
+        font-size: 27px;
+    }
+
+    .main__text-info-text {
+        font-size: 14px;
+    }
+
+    .main__text-info-link {
+        font-size: 17px;
+    }
+
+    .courses__all-search {
+        gap: 23px;
+        flex-direction: column;
+    }
+
+    .courses__catalog-info {
+        display: none;
+    }
+
+    .course__icon-simple {
+        display: none;
+    }
+
+    .course__card-simple {
+        max-width: 307px;
+        max-height: 154px;
+        height: 100%;
+        gap: 15px;
+    }
+
+    .button__simple {
+        padding: 5px 10px;
+    }
+
+    .course__card-simple-info-text {
+        gap: 5px;
+    }
+
+    .course__title-simple {
+        font-size: 22px;
+    }
+
+    .horizontal-line {
+        max-width: 344px;
+        width: 100%;
+    }
+
+    .about__title {
+        font-size: 22px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .advantages__title {
+        max-width: 226px;
+        font-size: 24px;
+    }
+
+    .advantages__info-teacher{
+        flex-direction: column;
+    }
+
+    .advantages__info-teacher-photo img {
+        display: none;
+    }
+
+    .advantages__info-teacher-photo-mobile img{
+        display: block;
+        max-width: 196px;
+    }
+
+    .teacher__card {
+        flex-direction: column;
+        max-width: 307px;
+        align-items: center;
+    }
+
+    .teacher__photo img {
+        max-width: 122px;
+    }
+
+    .teacher__text-info {
+        gap: 5px;
+    }
+
+    .teacher__info {
+        gap: 0px;
+    }
+
+    .teacher__title {
+        font-size: 24px;
+    }
+
+    .teacher__photo {
+        max-width: none;
+    }
+
+    .footer__inner {
+        max-width: 340px;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+
     
+
 
 
 }
